@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(rgb(208, 73, 73),rgb(224, 224, 38),pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+label{
+    font-size: 40px;
+}
+
+input{
+    border-radius: 30px;
+    height:40px;
+    width:250px;
+}
+
+button{
+    height:40px;
+    width:200px;
+    border-radius:30px;
+    background-color: aqua;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+button:hover{
+    background-color: rgb(24, 93, 154);
+}
+.box{
+    background-color: cadetblue;
+    border:4px solid black;
+    margin-top: 50px;
+}
+.sbox{
+    font-size: 30px;
+    background-color: pink;
+    margin:20px 0px 10px 80px;
+    width:600px;
+    height:70px;
+    display:inline-block;
+    border:2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
